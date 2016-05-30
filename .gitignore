@@ -1,2 +1,10 @@
 # maven project
 target/
+
+# file compilation
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
