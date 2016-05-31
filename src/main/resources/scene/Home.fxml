@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="400.0" prefWidth="600.0000999999975" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-1.0" AnchorPane.topAnchor="0.0">
+    <top>
+        <MenuBar>
+            <menus>
+                <Menu mnemonicParsing="false" text="File">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#doClose" text="Close" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Master Data">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#tampilBuku" text="Buku" />
+                        <MenuItem mnemonicParsing="false" onAction="#tampilPenerbit" text="Penerbit" />
+                        <MenuItem mnemonicParsing="false" onAction="#tampilAnggota" text="Anggota" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Transaksi">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#tampilPeminjaman" text="Peminjaman Buku" />
+                        <MenuItem mnemonicParsing="false" onAction="#tampilPengembalian" text="Pengembalian Buku" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </top>
+</BorderPane>
